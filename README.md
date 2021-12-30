@@ -53,8 +53,18 @@ MacOS的話可以用內建terminal
 
 > apt-get install wget
 
+再執行github上有人打包好的快速安裝腳本
 
+> wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 
 
 <img width="865" alt="截圖 2021-12-27 下午12 18 38" src="https://user-images.githubusercontent.com/49543451/147718132-745cbbd4-1b22-400b-bdb6-128fafe98ff1.png">
+
+## 如何使用?
+
+在root管理員權限下，執行cat openvpn.ovpn → 這個openvpn是上面圖片說的first client的名稱
+
+會取得一大串內容，把這些內容複製出來貼在記事本上，另存文件為openvpn.ovpn
+
+> 有能力的小夥伴可以把這個檔案從vps摳出來，也行
 
